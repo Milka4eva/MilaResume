@@ -248,6 +248,10 @@ line-height: 24px;
 .sidebarblock3,
 .sidebarblock4 {
     padding-left: 40px;
+
+    @media screen and (min-width: 691px) and (max-width: 800px) {
+        padding-right: 10px;
+    }
 }
 
 .contacttype {
