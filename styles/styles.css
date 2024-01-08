@@ -33,8 +33,7 @@ svg {
 }
 
 .maincontent {
-    padding-left: 40px;
-    padding-top: 40px;
+    padding: 40px 40px;
 }
 
 .aboutclass {
@@ -210,9 +209,11 @@ svg {
 .sidebarclass {
     background-color: #486da3;
     width: 100%;
+    display: flex;
+    flex-direction: column;
 
     @media screen and (min-width: 690px) {
-        width: 370px;
+        flex-basis: calc((100% - 30px) / 3);
     }
 }
 
@@ -222,12 +223,7 @@ svg {
 }**/
 
 .imageclass {
-    margin-bottom: 50px;
     width: 100%;
-
-    @media screen and (min-width: 690px) {
-        width: 370px;
-    }
 }
 
 .sidebartitle {
@@ -252,14 +248,6 @@ line-height: 24px;
 .sidebarblock3,
 .sidebarblock4 {
     padding-left: 40px;
-}
-
-.sidebarblock1 {
-    margin-bottom: 50px;
-}
-
-.sidebarblock2 {
-    margin-bottom: 45px;
 }
 
 .contacttype {
