@@ -39,7 +39,6 @@ svg {
 
 .aboutclass {
     margin-bottom: 40px;
-    margin-right: 160px;
 }
 
 /* aboutstyles */
@@ -210,7 +209,11 @@ svg {
 
 .sidebarclass {
     background-color: #486da3;
-    width: 370px;
+    width: 100%;
+
+    @media screen and (min-width: 690px) {
+        width: 370px;
+    }
 }
 
 /**img {
@@ -219,8 +222,12 @@ svg {
 }**/
 
 .imageclass {
-    width: 370px;
     margin-bottom: 50px;
+    width: 100%;
+
+    @media screen and (min-width: 690px) {
+        width: 370px;
+    }
 }
 
 .sidebartitle {
