@@ -75,7 +75,7 @@ svg {
     line-height: 24px;
     /* or 171% */
     color: #595959;
-    width: 400px;
+    max-width: 400px;
 }
 
 /* projects */
