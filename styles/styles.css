@@ -249,7 +249,7 @@ line-height: 24px;
 .sidebarblock4 {
     padding-left: 40px;
 
-    @media screen and (min-width: 691px) and (max-width: 800px) {
+    @media screen and (min-width: 690px) and (max-width: 800px) {
         padding-right: 10px;
     }
 }
